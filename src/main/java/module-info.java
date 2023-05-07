@@ -6,10 +6,10 @@ module com.siemieniuk.trafficmgmt {
                     requires org.kordamp.ikonli.javafx;
             requires org.kordamp.bootstrapfx.core;
             
-    opens com.siemieniuk.trafficmgmt.app to javafx.fxml;
-    exports com.siemieniuk.trafficmgmt.app;
-    exports com.siemieniuk.trafficmgmt.roadnetwork;
-    opens com.siemieniuk.trafficmgmt.roadnetwork to javafx.fxml;
-    exports com.siemieniuk.trafficmgmt.graph;
-    opens com.siemieniuk.trafficmgmt.graph to javafx.fxml;
+    opens siemieniuk.trafficmgmt.app to javafx.fxml;
+    exports siemieniuk.trafficmgmt.app;
+    exports siemieniuk.trafficmgmt.roadnetwork;
+    opens siemieniuk.trafficmgmt.roadnetwork to javafx.fxml;
+    exports siemieniuk.trafficmgmt.graph;
+    opens siemieniuk.trafficmgmt.graph to javafx.fxml;
 }

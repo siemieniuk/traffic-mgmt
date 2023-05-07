@@ -70,7 +70,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.siemieniuk.trafficmgmt/com.siemieniuk.trafficmgmt.app.MainApplication</mainClass>
+              <mainClass>com.siemieniuk.trafficmgmt/siemieniuk.trafficmgmt.app.MainApplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

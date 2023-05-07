@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<?import com.siemieniuk.trafficmgmt.graph.GraphView?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.siemieniuk.trafficmgmt.app.MainController">
+    <children>
+        <VBox maxWidth="150.0" minWidth="150.0" prefWidth="150.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+             <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Traffic Manager">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Text>
+            <Separator prefWidth="200.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Add new components" />
+            <Separator prefWidth="200.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Connect" />
+            <Separator prefWidth="200.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
+            <Separator prefWidth="200.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Simulation Speed" />
+            </children>
+        </VBox>
+        <GraphView fx:id="canvas" height="300.0" width="300.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+<!--        <Canvas fx:id="canvas" height="300.0" width="300.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="200.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />-->
+   </children>
+</AnchorPane>

@@ -1,6 +1,6 @@
-package com.siemieniuk.trafficmgmt.core.vehicle;
+package com.siemieniuk.trafficmgmt.vehicle;
 
-import com.siemieniuk.trafficmgmt.core.roadnetwork.Destination;
+import com.siemieniuk.trafficmgmt.roadnetwork.Destination;
 
 public abstract class Vehicle {
     private final double MAX_SPEED;

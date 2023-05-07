@@ -1,4 +1,4 @@
-package com.siemieniuk.trafficmgmt.core.graph;
+package com.siemieniuk.trafficmgmt.roadnetwork;
 
 public class RoadEdge {
     private final int LANES;

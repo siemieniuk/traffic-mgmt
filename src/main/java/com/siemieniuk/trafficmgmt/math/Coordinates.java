@@ -1,4 +1,4 @@
-package com.siemieniuk.trafficmgmt.core.math;
+package com.siemieniuk.trafficmgmt.math;
 
 /**
  * This class represents two-coordinate point.

@@ -1,6 +1,6 @@
-package com.siemieniuk.trafficmgmt.core.vehicle;
+package com.siemieniuk.trafficmgmt.vehicle;
 
-import com.siemieniuk.trafficmgmt.core.roadnetwork.Destination;
+import com.siemieniuk.trafficmgmt.roadnetwork.Destination;
 
 public final class Truck extends Vehicle {
     public Truck(Destination target, double maxSpeed, double acceleration, double deceleration) {

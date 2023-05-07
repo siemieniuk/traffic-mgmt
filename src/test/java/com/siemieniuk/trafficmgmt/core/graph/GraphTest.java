@@ -1,8 +1,9 @@
-package com.siemieniuk.trafficmgmt.core.roadnetwork;
+package com.siemieniuk.trafficmgmt.core.graph;
 
-import com.siemieniuk.trafficmgmt.core.graph.Graph;
-import com.siemieniuk.trafficmgmt.core.graph.GraphNode;
-import com.siemieniuk.trafficmgmt.core.graph.RoadEdge;
+import com.siemieniuk.trafficmgmt.graph.Graph;
+import com.siemieniuk.trafficmgmt.roadnetwork.GraphNode;
+import com.siemieniuk.trafficmgmt.roadnetwork.RoadEdge;
+import com.siemieniuk.trafficmgmt.roadnetwork.RoadMidPoint;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

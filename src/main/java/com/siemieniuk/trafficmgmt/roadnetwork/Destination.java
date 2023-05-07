@@ -1,7 +1,6 @@
-package com.siemieniuk.trafficmgmt.core.roadnetwork;
+package com.siemieniuk.trafficmgmt.roadnetwork;
 
-import com.siemieniuk.trafficmgmt.core.graph.GraphNode;
-import com.siemieniuk.trafficmgmt.core.vehicle.Vehicle;
+import com.siemieniuk.trafficmgmt.vehicle.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;

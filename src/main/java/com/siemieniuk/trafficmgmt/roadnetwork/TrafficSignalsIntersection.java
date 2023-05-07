@@ -1,4 +1,4 @@
-package com.siemieniuk.trafficmgmt.core.roadnetwork;
+package com.siemieniuk.trafficmgmt.roadnetwork;
 
 public final class TrafficSignalsIntersection extends Intersection {
     public TrafficSignalsIntersection() {

@@ -1,14 +1,17 @@
-package com.siemieniuk.trafficmgmt.core.graph;
+package com.siemieniuk.trafficmgmt.graph;
+
+import com.siemieniuk.trafficmgmt.roadnetwork.GraphNode;
+import com.siemieniuk.trafficmgmt.roadnetwork.RoadEdge;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Graph {
+class Graph {
     public HashMap<GraphNode, HashMap<GraphNode, RoadEdge>> edges;
     public List<GraphNode> nodes;
 
-    public Graph() {
+    Graph() {
         this.nodes = new ArrayList<>();
         this.edges = new HashMap<>();
     }

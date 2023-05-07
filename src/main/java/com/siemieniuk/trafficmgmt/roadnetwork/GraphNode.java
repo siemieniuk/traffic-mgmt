@@ -1,4 +1,4 @@
-package com.siemieniuk.trafficmgmt.core.graph;
+package com.siemieniuk.trafficmgmt.roadnetwork;
 
 public abstract class GraphNode {
     private static int NEW_ID = 0;

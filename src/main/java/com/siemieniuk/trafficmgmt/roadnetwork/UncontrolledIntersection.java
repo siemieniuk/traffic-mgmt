@@ -1,4 +1,4 @@
-package com.siemieniuk.trafficmgmt.core.roadnetwork;
+package com.siemieniuk.trafficmgmt.roadnetwork;
 
 public class UncontrolledIntersection extends Intersection {
     public UncontrolledIntersection() {
